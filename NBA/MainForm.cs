@@ -20,6 +20,10 @@ namespace NBA
             InitializeComponent();
         }
 
+
+
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -29,7 +33,9 @@ namespace NBA
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form adminform = new adminform();
+            adminform.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -61,12 +67,19 @@ namespace NBA
         private void button3_Click(object sender, EventArgs e)
         {
             index++;
-            if (index > 1) index = 1;
-            pictureBox1.Load("../../../imagelist/" + imagelist[index + 2]);
-            pictureBox2.Load("../../../imagelist/" + imagelist[index + 3]);
-            pictureBox3.Load("../../../imagelist/" + imagelist[index + 4]);
+            if (index > 3) index = 3;
+            pictureBox1.Load("../../../imagelist/" + imagelist[index + 0]);
+            pictureBox2.Load("../../../imagelist/" + imagelist[index + 1]);
+            pictureBox3.Load("../../../imagelist/" + imagelist[index + 2]);
 
             return;
+        }
+
+        private void mainform_Load(object sender, EventArgs e)
+        {
+            pictureBox1.Load("../../../imagelist/" + imagelist[0]);
+            pictureBox2.Load("../../../imagelist/" + imagelist[1]);
+            pictureBox3.Load("../../../imagelist/" + imagelist[2]);
         }
     }
 }

@@ -29,6 +29,7 @@ namespace NBA
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(teamsform));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Back2 = new System.Windows.Forms.Button();
@@ -92,6 +93,7 @@ namespace NBA
             this.linkLabel78 = new System.Windows.Forms.LinkLabel();
             this.label30 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.linkLabel21 = new System.Windows.Forms.LinkLabel();
             this.linkLabel79 = new System.Windows.Forms.LinkLabel();
             this.linkLabel80 = new System.Windows.Forms.LinkLabel();
             this.linkLabel81 = new System.Windows.Forms.LinkLabel();
@@ -197,6 +199,7 @@ namespace NBA
             this.label20 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
             this.Northwest = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.Eastern.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -236,6 +239,7 @@ namespace NBA
             this.panel22.SuspendLayout();
             this.panel23.SuspendLayout();
             this.panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -308,6 +312,7 @@ namespace NBA
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.linkLabel49);
             this.panel1.Controls.Add(this.linkLabel50);
             this.panel1.Controls.Add(this.linkLabel51);
@@ -316,6 +321,7 @@ namespace NBA
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(575, 125);
             this.panel1.TabIndex = 15;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // linkLabel49
             // 
@@ -332,10 +338,10 @@ namespace NBA
             this.linkLabel50.AutoSize = true;
             this.linkLabel50.Location = new System.Drawing.Point(233, 75);
             this.linkLabel50.Name = "linkLabel50";
-            this.linkLabel50.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel50.Size = new System.Drawing.Size(67, 20);
             this.linkLabel50.TabIndex = 10;
             this.linkLabel50.TabStop = true;
-            this.linkLabel50.Text = "linkLabel50";
+            this.linkLabel50.Text = "Matchup";
             // 
             // linkLabel51
             // 
@@ -358,6 +364,7 @@ namespace NBA
             // 
             // panel4
             // 
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel4.Controls.Add(this.linkLabel52);
             this.panel4.Controls.Add(this.linkLabel53);
             this.panel4.Controls.Add(this.linkLabel54);
@@ -382,10 +389,10 @@ namespace NBA
             this.linkLabel53.AutoSize = true;
             this.linkLabel53.Location = new System.Drawing.Point(233, 75);
             this.linkLabel53.Name = "linkLabel53";
-            this.linkLabel53.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel53.Size = new System.Drawing.Size(67, 20);
             this.linkLabel53.TabIndex = 10;
             this.linkLabel53.TabStop = true;
-            this.linkLabel53.Text = "linkLabel53";
+            this.linkLabel53.Text = "Matchup";
             // 
             // linkLabel54
             // 
@@ -408,6 +415,7 @@ namespace NBA
             // 
             // panel5
             // 
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel5.Controls.Add(this.linkLabel55);
             this.panel5.Controls.Add(this.linkLabel56);
             this.panel5.Controls.Add(this.linkLabel57);
@@ -432,10 +440,10 @@ namespace NBA
             this.linkLabel56.AutoSize = true;
             this.linkLabel56.Location = new System.Drawing.Point(233, 75);
             this.linkLabel56.Name = "linkLabel56";
-            this.linkLabel56.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel56.Size = new System.Drawing.Size(67, 20);
             this.linkLabel56.TabIndex = 10;
             this.linkLabel56.TabStop = true;
-            this.linkLabel56.Text = "linkLabel56";
+            this.linkLabel56.Text = "Matchup";
             // 
             // linkLabel57
             // 
@@ -458,6 +466,7 @@ namespace NBA
             // 
             // panel6
             // 
+            this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel6.Controls.Add(this.linkLabel91);
             this.panel6.Controls.Add(this.linkLabel92);
             this.panel6.Controls.Add(this.linkLabel93);
@@ -482,10 +491,10 @@ namespace NBA
             this.linkLabel92.AutoSize = true;
             this.linkLabel92.Location = new System.Drawing.Point(233, 75);
             this.linkLabel92.Name = "linkLabel92";
-            this.linkLabel92.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel92.Size = new System.Drawing.Size(67, 20);
             this.linkLabel92.TabIndex = 14;
             this.linkLabel92.TabStop = true;
-            this.linkLabel92.Text = "linkLabel92";
+            this.linkLabel92.Text = "Matchup";
             // 
             // linkLabel93
             // 
@@ -508,6 +517,7 @@ namespace NBA
             // 
             // panel7
             // 
+            this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel7.Controls.Add(this.linkLabel94);
             this.panel7.Controls.Add(this.linkLabel95);
             this.panel7.Controls.Add(this.linkLabel96);
@@ -532,10 +542,10 @@ namespace NBA
             this.linkLabel95.AutoSize = true;
             this.linkLabel95.Location = new System.Drawing.Point(233, 75);
             this.linkLabel95.Name = "linkLabel95";
-            this.linkLabel95.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel95.Size = new System.Drawing.Size(67, 20);
             this.linkLabel95.TabIndex = 14;
             this.linkLabel95.TabStop = true;
-            this.linkLabel95.Text = "linkLabel95";
+            this.linkLabel95.Text = "Matchup";
             // 
             // linkLabel96
             // 
@@ -559,6 +569,7 @@ namespace NBA
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.LightGray;
+            this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel8.Controls.Add(this.label3);
             this.panel8.Location = new System.Drawing.Point(3, 64);
             this.panel8.Name = "panel8";
@@ -576,6 +587,7 @@ namespace NBA
             // 
             // panel14
             // 
+            this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel14.Controls.Add(this.linkLabel61);
             this.panel14.Controls.Add(this.linkLabel62);
             this.panel14.Controls.Add(this.linkLabel63);
@@ -600,10 +612,10 @@ namespace NBA
             this.linkLabel62.AutoSize = true;
             this.linkLabel62.Location = new System.Drawing.Point(233, 75);
             this.linkLabel62.Name = "linkLabel62";
-            this.linkLabel62.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel62.Size = new System.Drawing.Size(67, 20);
             this.linkLabel62.TabIndex = 14;
             this.linkLabel62.TabStop = true;
-            this.linkLabel62.Text = "linkLabel62";
+            this.linkLabel62.Text = "Matchup";
             // 
             // linkLabel63
             // 
@@ -626,6 +638,7 @@ namespace NBA
             // 
             // panel2
             // 
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.linkLabel58);
             this.panel2.Controls.Add(this.linkLabel59);
             this.panel2.Controls.Add(this.linkLabel60);
@@ -650,10 +663,10 @@ namespace NBA
             this.linkLabel59.AutoSize = true;
             this.linkLabel59.Location = new System.Drawing.Point(233, 75);
             this.linkLabel59.Name = "linkLabel59";
-            this.linkLabel59.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel59.Size = new System.Drawing.Size(67, 20);
             this.linkLabel59.TabIndex = 14;
             this.linkLabel59.TabStop = true;
-            this.linkLabel59.Text = "linkLabel59";
+            this.linkLabel59.Text = "Matchup";
             // 
             // linkLabel60
             // 
@@ -676,6 +689,7 @@ namespace NBA
             // 
             // panel15
             // 
+            this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel15.Controls.Add(this.linkLabel67);
             this.panel15.Controls.Add(this.linkLabel68);
             this.panel15.Controls.Add(this.linkLabel69);
@@ -700,10 +714,11 @@ namespace NBA
             this.linkLabel68.AutoSize = true;
             this.linkLabel68.Location = new System.Drawing.Point(233, 75);
             this.linkLabel68.Name = "linkLabel68";
-            this.linkLabel68.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel68.Size = new System.Drawing.Size(67, 20);
             this.linkLabel68.TabIndex = 14;
             this.linkLabel68.TabStop = true;
-            this.linkLabel68.Text = "linkLabel68";
+            this.linkLabel68.Text = "Matchup";
+            this.linkLabel68.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel68_LinkClicked);
             // 
             // linkLabel69
             // 
@@ -726,6 +741,7 @@ namespace NBA
             // 
             // panel16
             // 
+            this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel16.Controls.Add(this.linkLabel70);
             this.panel16.Controls.Add(this.linkLabel71);
             this.panel16.Controls.Add(this.linkLabel72);
@@ -750,10 +766,10 @@ namespace NBA
             this.linkLabel71.AutoSize = true;
             this.linkLabel71.Location = new System.Drawing.Point(233, 75);
             this.linkLabel71.Name = "linkLabel71";
-            this.linkLabel71.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel71.Size = new System.Drawing.Size(67, 20);
             this.linkLabel71.TabIndex = 14;
             this.linkLabel71.TabStop = true;
-            this.linkLabel71.Text = "linkLabel71";
+            this.linkLabel71.Text = "Matchup";
             // 
             // linkLabel72
             // 
@@ -776,6 +792,7 @@ namespace NBA
             // 
             // panel3
             // 
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.linkLabel64);
             this.panel3.Controls.Add(this.linkLabel65);
             this.panel3.Controls.Add(this.linkLabel66);
@@ -800,10 +817,11 @@ namespace NBA
             this.linkLabel65.AutoSize = true;
             this.linkLabel65.Location = new System.Drawing.Point(233, 75);
             this.linkLabel65.Name = "linkLabel65";
-            this.linkLabel65.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel65.Size = new System.Drawing.Size(67, 20);
             this.linkLabel65.TabIndex = 14;
             this.linkLabel65.TabStop = true;
-            this.linkLabel65.Text = "linkLabel65";
+            this.linkLabel65.Text = "Matchup";
+            this.linkLabel65.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel65_LinkClicked);
             // 
             // linkLabel66
             // 
@@ -826,6 +844,7 @@ namespace NBA
             // 
             // panel17
             // 
+            this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel17.Controls.Add(this.linkLabel76);
             this.panel17.Controls.Add(this.linkLabel77);
             this.panel17.Controls.Add(this.linkLabel78);
@@ -850,10 +869,10 @@ namespace NBA
             this.linkLabel77.AutoSize = true;
             this.linkLabel77.Location = new System.Drawing.Point(233, 75);
             this.linkLabel77.Name = "linkLabel77";
-            this.linkLabel77.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel77.Size = new System.Drawing.Size(67, 20);
             this.linkLabel77.TabIndex = 14;
             this.linkLabel77.TabStop = true;
-            this.linkLabel77.Text = "linkLabel77";
+            this.linkLabel77.Text = "Matchup";
             // 
             // linkLabel78
             // 
@@ -876,6 +895,8 @@ namespace NBA
             // 
             // panel18
             // 
+            this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel18.Controls.Add(this.linkLabel21);
             this.panel18.Controls.Add(this.linkLabel79);
             this.panel18.Controls.Add(this.linkLabel80);
             this.panel18.Controls.Add(this.linkLabel81);
@@ -884,6 +905,16 @@ namespace NBA
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(575, 125);
             this.panel18.TabIndex = 7;
+            // 
+            // linkLabel21
+            // 
+            this.linkLabel21.AutoSize = true;
+            this.linkLabel21.Location = new System.Drawing.Point(233, 75);
+            this.linkLabel21.Name = "linkLabel21";
+            this.linkLabel21.Size = new System.Drawing.Size(67, 20);
+            this.linkLabel21.TabIndex = 16;
+            this.linkLabel21.TabStop = true;
+            this.linkLabel21.Text = "Matchup";
             // 
             // linkLabel79
             // 
@@ -900,10 +931,8 @@ namespace NBA
             this.linkLabel80.AutoSize = true;
             this.linkLabel80.Location = new System.Drawing.Point(233, 75);
             this.linkLabel80.Name = "linkLabel80";
-            this.linkLabel80.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel80.Size = new System.Drawing.Size(0, 20);
             this.linkLabel80.TabIndex = 14;
-            this.linkLabel80.TabStop = true;
-            this.linkLabel80.Text = "linkLabel80";
             // 
             // linkLabel81
             // 
@@ -926,6 +955,7 @@ namespace NBA
             // 
             // panel9
             // 
+            this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel9.Controls.Add(this.linkLabel88);
             this.panel9.Controls.Add(this.linkLabel89);
             this.panel9.Controls.Add(this.linkLabel90);
@@ -950,10 +980,10 @@ namespace NBA
             this.linkLabel89.AutoSize = true;
             this.linkLabel89.Location = new System.Drawing.Point(233, 75);
             this.linkLabel89.Name = "linkLabel89";
-            this.linkLabel89.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel89.Size = new System.Drawing.Size(67, 20);
             this.linkLabel89.TabIndex = 14;
             this.linkLabel89.TabStop = true;
-            this.linkLabel89.Text = "linkLabel89";
+            this.linkLabel89.Text = "Matchup";
             // 
             // linkLabel90
             // 
@@ -977,6 +1007,7 @@ namespace NBA
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.LightGray;
+            this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel19.Controls.Add(this.Southheast);
             this.panel19.Location = new System.Drawing.Point(1179, 64);
             this.panel19.Name = "panel19";
@@ -994,6 +1025,7 @@ namespace NBA
             // 
             // panel10
             // 
+            this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel10.Controls.Add(this.linkLabel85);
             this.panel10.Controls.Add(this.linkLabel86);
             this.panel10.Controls.Add(this.linkLabel87);
@@ -1018,10 +1050,10 @@ namespace NBA
             this.linkLabel86.AutoSize = true;
             this.linkLabel86.Location = new System.Drawing.Point(233, 75);
             this.linkLabel86.Name = "linkLabel86";
-            this.linkLabel86.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel86.Size = new System.Drawing.Size(67, 20);
             this.linkLabel86.TabIndex = 14;
             this.linkLabel86.TabStop = true;
-            this.linkLabel86.Text = "linkLabel86";
+            this.linkLabel86.Text = "Matchup";
             // 
             // linkLabel87
             // 
@@ -1044,6 +1076,7 @@ namespace NBA
             // 
             // panel12
             // 
+            this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel12.Controls.Add(this.linkLabel82);
             this.panel12.Controls.Add(this.linkLabel83);
             this.panel12.Controls.Add(this.linkLabel84);
@@ -1068,10 +1101,10 @@ namespace NBA
             this.linkLabel83.AutoSize = true;
             this.linkLabel83.Location = new System.Drawing.Point(233, 75);
             this.linkLabel83.Name = "linkLabel83";
-            this.linkLabel83.Size = new System.Drawing.Size(84, 20);
+            this.linkLabel83.Size = new System.Drawing.Size(67, 20);
             this.linkLabel83.TabIndex = 14;
             this.linkLabel83.TabStop = true;
-            this.linkLabel83.Text = "linkLabel83";
+            this.linkLabel83.Text = "Matchup";
             // 
             // linkLabel84
             // 
@@ -1095,6 +1128,7 @@ namespace NBA
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.LightGray;
+            this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel13.Controls.Add(this.Central);
             this.panel13.Location = new System.Drawing.Point(595, 64);
             this.panel13.Name = "panel13";
@@ -1140,6 +1174,7 @@ namespace NBA
             // 
             // panel31
             // 
+            this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel31.Controls.Add(this.linkLabel4);
             this.panel31.Controls.Add(this.linkLabel5);
             this.panel31.Controls.Add(this.linkLabel9);
@@ -1190,6 +1225,7 @@ namespace NBA
             // 
             // panel32
             // 
+            this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel32.Controls.Add(this.linkLabel10);
             this.panel32.Controls.Add(this.linkLabel11);
             this.panel32.Controls.Add(this.linkLabel12);
@@ -1240,6 +1276,7 @@ namespace NBA
             // 
             // panel25
             // 
+            this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel25.Controls.Add(this.linkLabel1);
             this.panel25.Controls.Add(this.linkLabel2);
             this.panel25.Controls.Add(this.linkLabel3);
@@ -1290,6 +1327,7 @@ namespace NBA
             // 
             // panel33
             // 
+            this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel33.Controls.Add(this.linkLabel13);
             this.panel33.Controls.Add(this.linkLabel14);
             this.panel33.Controls.Add(this.linkLabel15);
@@ -1340,6 +1378,7 @@ namespace NBA
             // 
             // panel26
             // 
+            this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel26.Controls.Add(this.linkLabel25);
             this.panel26.Controls.Add(this.linkLabel26);
             this.panel26.Controls.Add(this.linkLabel27);
@@ -1390,6 +1429,7 @@ namespace NBA
             // 
             // panel34
             // 
+            this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel34.Controls.Add(this.linkLabel16);
             this.panel34.Controls.Add(this.linkLabel17);
             this.panel34.Controls.Add(this.linkLabel18);
@@ -1440,6 +1480,7 @@ namespace NBA
             // 
             // panel27
             // 
+            this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel27.Controls.Add(this.linkLabel28);
             this.panel27.Controls.Add(this.linkLabel29);
             this.panel27.Controls.Add(this.linkLabel30);
@@ -1490,6 +1531,7 @@ namespace NBA
             // 
             // panel35
             // 
+            this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel35.Controls.Add(this.linkLabel19);
             this.panel35.Controls.Add(this.linkLabel20);
             this.panel35.Controls.Add(this.linkLabel24);
@@ -1540,6 +1582,7 @@ namespace NBA
             // 
             // panel28
             // 
+            this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel28.Controls.Add(this.linkLabel31);
             this.panel28.Controls.Add(this.linkLabel32);
             this.panel28.Controls.Add(this.linkLabel33);
@@ -1591,6 +1634,7 @@ namespace NBA
             // panel36
             // 
             this.panel36.BackColor = System.Drawing.Color.LightGray;
+            this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel36.Controls.Add(this.label5);
             this.panel36.Location = new System.Drawing.Point(1172, 55);
             this.panel36.Name = "panel36";
@@ -1608,6 +1652,7 @@ namespace NBA
             // 
             // panel29
             // 
+            this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel29.Controls.Add(this.linkLabel34);
             this.panel29.Controls.Add(this.linkLabel35);
             this.panel29.Controls.Add(this.linkLabel36);
@@ -1659,6 +1704,7 @@ namespace NBA
             // panel30
             // 
             this.panel30.BackColor = System.Drawing.Color.LightGray;
+            this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel30.Controls.Add(this.Pacific);
             this.panel30.Location = new System.Drawing.Point(593, 55);
             this.panel30.Name = "panel30";
@@ -1676,6 +1722,7 @@ namespace NBA
             // 
             // panel11
             // 
+            this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel11.Controls.Add(this.linkLabel6);
             this.panel11.Controls.Add(this.linkLabel7);
             this.panel11.Controls.Add(this.linkLabel8);
@@ -1726,6 +1773,7 @@ namespace NBA
             // 
             // panel20
             // 
+            this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel20.Controls.Add(this.linkLabel37);
             this.panel20.Controls.Add(this.linkLabel38);
             this.panel20.Controls.Add(this.linkLabel39);
@@ -1776,6 +1824,7 @@ namespace NBA
             // 
             // panel21
             // 
+            this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel21.Controls.Add(this.linkLabel40);
             this.panel21.Controls.Add(this.linkLabel41);
             this.panel21.Controls.Add(this.linkLabel42);
@@ -1826,6 +1875,7 @@ namespace NBA
             // 
             // panel22
             // 
+            this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel22.Controls.Add(this.linkLabel43);
             this.panel22.Controls.Add(this.linkLabel44);
             this.panel22.Controls.Add(this.linkLabel45);
@@ -1876,6 +1926,7 @@ namespace NBA
             // 
             // panel23
             // 
+            this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel23.Controls.Add(this.linkLabel46);
             this.panel23.Controls.Add(this.linkLabel47);
             this.panel23.Controls.Add(this.linkLabel48);
@@ -1927,6 +1978,7 @@ namespace NBA
             // panel24
             // 
             this.panel24.BackColor = System.Drawing.Color.LightGray;
+            this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel24.Controls.Add(this.Northwest);
             this.panel24.Location = new System.Drawing.Point(12, 55);
             this.panel24.Name = "panel24";
@@ -1942,11 +1994,22 @@ namespace NBA
             this.Northwest.TabIndex = 0;
             this.Northwest.Text = "Northwest";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(103, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(66, 109);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            // 
             // teamsform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1828, 951);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -2028,6 +2091,7 @@ namespace NBA
             this.panel23.PerformLayout();
             this.panel24.ResumeLayout(false);
             this.panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2203,5 +2267,7 @@ namespace NBA
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Panel panel24;
         private System.Windows.Forms.Label Northwest;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel linkLabel21;
     }
 }

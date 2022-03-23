@@ -28,5 +28,19 @@ namespace NBA
             Form teamsform = new teamsform();
             teamsform.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form playersform = new playersform();
+            playersform.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form photoform = new photoform();
+            photoform.Show();
+        }
     }
 }

@@ -21,5 +21,20 @@ namespace NBA
             Form visitorform = new visitorform();
             visitorform.Show();
         }
+
+        private void linkLabel65_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void linkLabel68_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
