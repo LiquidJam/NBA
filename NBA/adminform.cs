@@ -41,5 +41,12 @@ namespace NBA
             Form mainform = new mainform();
             mainform.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form logform = new logform();
+            logform.Show();
+        }
     }
 }

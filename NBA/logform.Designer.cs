@@ -1,7 +1,7 @@
 ﻿
 namespace NBA
 {
-    partial class Form1
+    partial class logform
     {
         /// <summary>
         /// Required designer variable.
@@ -43,6 +43,7 @@ namespace NBA
             this.button1.TabIndex = 0;
             this.button1.Text = "Event Administrator";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -52,6 +53,7 @@ namespace NBA
             this.button2.TabIndex = 0;
             this.button2.Text = "Technical Administrator";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
             // 
@@ -75,7 +77,7 @@ namespace NBA
             this.label2.TabIndex = 2;
             this.label2.Text = "Which type of user would you like to\r\n       log in to the system as?\r\n";
             // 
-            // Form1
+            // logform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,7 +86,7 @@ namespace NBA
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "logform";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

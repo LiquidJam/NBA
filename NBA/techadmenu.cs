@@ -8,16 +8,18 @@ using System.Windows.Forms;
 
 namespace NBA
 {
-    public partial class Form1 : Form
+    public partial class techadmenu : Form
     {
-        public Form1()
+        public techadmenu()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Back2_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form logform = new logform();
+            logform.Show();
         }
     }
 }
