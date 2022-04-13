@@ -18,14 +18,14 @@ namespace NBA
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form mainform = new mainform();
+            Form mainform = new Form1();
             mainform.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form teamsform = new teamsform();
+            Form teamsform = new teams();
             teamsform.Show();
         }
 

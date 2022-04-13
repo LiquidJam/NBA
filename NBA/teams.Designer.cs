@@ -1,7 +1,7 @@
 ﻿
 namespace NBA
 {
-    partial class teamsform
+    partial class teams
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace NBA
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(teamsform));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(teams));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Back2 = new System.Windows.Forms.Button();

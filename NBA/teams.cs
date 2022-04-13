@@ -8,11 +8,15 @@ using System.Windows.Forms;
 
 namespace NBA
 {
-    public partial class teamsform : Form
+    public partial class teams : Form
     {
-        public teamsform()
+        public teams()
         {
             InitializeComponent();
+            lab1.Text mainform.Teams[0].TeamName;
+            for (int i = 0; i < 5; i++)
+                Controls["panel" + (1 + 1)].Controls["label" + (1 + 1) ].Text = mainform.Teams[1].TeamName;
+
         }
 
         private void Back2_Click(object sender, EventArgs e)

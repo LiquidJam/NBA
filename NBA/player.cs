@@ -5,13 +5,13 @@ using System.Text;
 namespace NBA
 {
     class player
-    {
-        public int number;
-        public String name;
-        public int growth;
-        public int position;
-        public String college;
-        public String country;
+    { 
+        public int number; //номер игрока 
+        public String name; //имя игрока 
+        public int growth; //рост игрока 
+        public int position; //позиция 
+        public String college; //образование
+        public String country; //страна
 
         public float price;
         //инициализация класса
