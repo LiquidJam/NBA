@@ -13,9 +13,13 @@ namespace NBA
         public teams()
         {
             InitializeComponent();
-            lab1.Text mainform.Teams[0].TeamName;
+            label1.Text = mainform.teams[0].TeamName;
             for (int i = 0; i < 5; i++)
-                Controls["panel" + (1 + 1)].Controls["label" + (1 + 1) ].Text = mainform.Teams[1].TeamName;
+                this.Controls.Find("linkLabel22", true)[0].Text = mainform.teams[0].TeamName;
+            this.Controls.Find("linkLabel24", true)[0].Text = mainform.teams[1].TeamName;
+            this.Controls.Find("linkLabel73", true)[0].Text = mainform.teams[2].TeamName;
+            this.Controls.Find("linkLabel74", true)[0].Text = mainform.teams[3].TeamName;
+            this.Controls.Find("linkLabel75", true)[0].Text = mainform.teams[4].TeamName;
 
         }
 
@@ -37,6 +41,76 @@ namespace NBA
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label22_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel22_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Form detailform = new detailform();
+            detailform.Show();
+
+        }
+
+        private void linkLabel23_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            this.Hide();
+            Form detailform = new detailform();
+            detailform.Show();
+        }
+
+        private void linkLabel73_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            this.Hide();
+            Form detailform = new detailform();
+            detailform.Show();
+        }
+
+        private void linkLabel74_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            this.Hide();
+            Form detailform = new detailform();
+            detailform.Show();
+        }
+
+        private void linkLabel75_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+            this.Hide();
+            Form detailform = new detailform();
+            detailform.Show();
+        }
+
+        private void teams_Load(object sender, EventArgs e)
         {
 
         }

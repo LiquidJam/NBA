@@ -36,85 +36,85 @@ namespace NBA
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Eastern = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.linkLabel22 = new System.Windows.Forms.LinkLabel();
             this.linkLabel49 = new System.Windows.Forms.LinkLabel();
             this.linkLabel50 = new System.Windows.Forms.LinkLabel();
             this.linkLabel51 = new System.Windows.Forms.LinkLabel();
-            this.label21 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.linkLabel74 = new System.Windows.Forms.LinkLabel();
             this.linkLabel52 = new System.Windows.Forms.LinkLabel();
             this.linkLabel53 = new System.Windows.Forms.LinkLabel();
             this.linkLabel54 = new System.Windows.Forms.LinkLabel();
-            this.label22 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.linkLabel100 = new System.Windows.Forms.LinkLabel();
             this.linkLabel55 = new System.Windows.Forms.LinkLabel();
             this.linkLabel56 = new System.Windows.Forms.LinkLabel();
             this.linkLabel57 = new System.Windows.Forms.LinkLabel();
-            this.label23 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.linkLabel101 = new System.Windows.Forms.LinkLabel();
             this.linkLabel91 = new System.Windows.Forms.LinkLabel();
             this.linkLabel92 = new System.Windows.Forms.LinkLabel();
             this.linkLabel93 = new System.Windows.Forms.LinkLabel();
-            this.label35 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.linkLabel106 = new System.Windows.Forms.LinkLabel();
             this.linkLabel94 = new System.Windows.Forms.LinkLabel();
             this.linkLabel95 = new System.Windows.Forms.LinkLabel();
             this.linkLabel96 = new System.Windows.Forms.LinkLabel();
-            this.label36 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.panel14 = new System.Windows.Forms.Panel();
+            this.linkLabel73 = new System.Windows.Forms.LinkLabel();
             this.linkLabel61 = new System.Windows.Forms.LinkLabel();
             this.linkLabel62 = new System.Windows.Forms.LinkLabel();
             this.linkLabel63 = new System.Windows.Forms.LinkLabel();
-            this.label25 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.linkLabel23 = new System.Windows.Forms.LinkLabel();
             this.linkLabel58 = new System.Windows.Forms.LinkLabel();
             this.linkLabel59 = new System.Windows.Forms.LinkLabel();
             this.linkLabel60 = new System.Windows.Forms.LinkLabel();
-            this.label24 = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.linkLabel97 = new System.Windows.Forms.LinkLabel();
             this.linkLabel67 = new System.Windows.Forms.LinkLabel();
             this.linkLabel68 = new System.Windows.Forms.LinkLabel();
             this.linkLabel69 = new System.Windows.Forms.LinkLabel();
-            this.label27 = new System.Windows.Forms.Label();
             this.panel16 = new System.Windows.Forms.Panel();
+            this.linkLabel98 = new System.Windows.Forms.LinkLabel();
             this.linkLabel70 = new System.Windows.Forms.LinkLabel();
             this.linkLabel71 = new System.Windows.Forms.LinkLabel();
             this.linkLabel72 = new System.Windows.Forms.LinkLabel();
-            this.label28 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.linkLabel75 = new System.Windows.Forms.LinkLabel();
             this.linkLabel64 = new System.Windows.Forms.LinkLabel();
             this.linkLabel65 = new System.Windows.Forms.LinkLabel();
             this.linkLabel66 = new System.Windows.Forms.LinkLabel();
-            this.label26 = new System.Windows.Forms.Label();
             this.panel17 = new System.Windows.Forms.Panel();
+            this.linkLabel103 = new System.Windows.Forms.LinkLabel();
             this.linkLabel76 = new System.Windows.Forms.LinkLabel();
             this.linkLabel77 = new System.Windows.Forms.LinkLabel();
             this.linkLabel78 = new System.Windows.Forms.LinkLabel();
-            this.label30 = new System.Windows.Forms.Label();
             this.panel18 = new System.Windows.Forms.Panel();
+            this.linkLabel104 = new System.Windows.Forms.LinkLabel();
             this.linkLabel21 = new System.Windows.Forms.LinkLabel();
             this.linkLabel79 = new System.Windows.Forms.LinkLabel();
             this.linkLabel80 = new System.Windows.Forms.LinkLabel();
             this.linkLabel81 = new System.Windows.Forms.LinkLabel();
-            this.label31 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.linkLabel99 = new System.Windows.Forms.LinkLabel();
             this.linkLabel88 = new System.Windows.Forms.LinkLabel();
             this.linkLabel89 = new System.Windows.Forms.LinkLabel();
             this.linkLabel90 = new System.Windows.Forms.LinkLabel();
-            this.label34 = new System.Windows.Forms.Label();
             this.panel19 = new System.Windows.Forms.Panel();
             this.Southheast = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.linkLabel102 = new System.Windows.Forms.LinkLabel();
             this.linkLabel85 = new System.Windows.Forms.LinkLabel();
             this.linkLabel86 = new System.Windows.Forms.LinkLabel();
             this.linkLabel87 = new System.Windows.Forms.LinkLabel();
-            this.label33 = new System.Windows.Forms.Label();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.linkLabel105 = new System.Windows.Forms.LinkLabel();
             this.linkLabel82 = new System.Windows.Forms.LinkLabel();
             this.linkLabel83 = new System.Windows.Forms.LinkLabel();
             this.linkLabel84 = new System.Windows.Forms.LinkLabel();
-            this.label32 = new System.Windows.Forms.Label();
             this.panel13 = new System.Windows.Forms.Panel();
             this.Central = new System.Windows.Forms.Label();
             this.Western = new System.Windows.Forms.TabPage();
@@ -313,15 +313,26 @@ namespace NBA
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.linkLabel22);
             this.panel1.Controls.Add(this.linkLabel49);
             this.panel1.Controls.Add(this.linkLabel50);
             this.panel1.Controls.Add(this.linkLabel51);
-            this.panel1.Controls.Add(this.label21);
             this.panel1.Location = new System.Drawing.Point(3, 129);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(575, 125);
             this.panel1.TabIndex = 15;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // linkLabel22
+            // 
+            this.linkLabel22.AutoSize = true;
+            this.linkLabel22.Location = new System.Drawing.Point(126, 29);
+            this.linkLabel22.Name = "linkLabel22";
+            this.linkLabel22.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel22.TabIndex = 12;
+            this.linkLabel22.TabStop = true;
+            this.linkLabel22.Text = "Team name";
+            this.linkLabel22.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel22_LinkClicked);
             // 
             // linkLabel49
             // 
@@ -353,26 +364,28 @@ namespace NBA
             this.linkLabel51.TabStop = true;
             this.linkLabel51.Text = "Roaster";
             // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(126, 29);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(86, 20);
-            this.label21.TabIndex = 8;
-            this.label21.Text = "Team name";
-            // 
             // panel4
             // 
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.linkLabel74);
             this.panel4.Controls.Add(this.linkLabel52);
             this.panel4.Controls.Add(this.linkLabel53);
             this.panel4.Controls.Add(this.linkLabel54);
-            this.panel4.Controls.Add(this.label22);
             this.panel4.Location = new System.Drawing.Point(3, 248);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(575, 125);
             this.panel4.TabIndex = 16;
+            // 
+            // linkLabel74
+            // 
+            this.linkLabel74.AutoSize = true;
+            this.linkLabel74.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel74.Name = "linkLabel74";
+            this.linkLabel74.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel74.TabIndex = 13;
+            this.linkLabel74.TabStop = true;
+            this.linkLabel74.Text = "Team name";
+            this.linkLabel74.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel74_LinkClicked);
             // 
             // linkLabel52
             // 
@@ -404,26 +417,27 @@ namespace NBA
             this.linkLabel54.TabStop = true;
             this.linkLabel54.Text = "Roaster";
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(126, 29);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(86, 20);
-            this.label22.TabIndex = 8;
-            this.label22.Text = "Team name";
-            // 
             // panel5
             // 
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.linkLabel100);
             this.panel5.Controls.Add(this.linkLabel55);
             this.panel5.Controls.Add(this.linkLabel56);
             this.panel5.Controls.Add(this.linkLabel57);
-            this.panel5.Controls.Add(this.label23);
             this.panel5.Location = new System.Drawing.Point(3, 364);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(575, 125);
             this.panel5.TabIndex = 17;
+            // 
+            // linkLabel100
+            // 
+            this.linkLabel100.AutoSize = true;
+            this.linkLabel100.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel100.Name = "linkLabel100";
+            this.linkLabel100.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel100.TabIndex = 13;
+            this.linkLabel100.TabStop = true;
+            this.linkLabel100.Text = "Team name";
             // 
             // linkLabel55
             // 
@@ -455,26 +469,27 @@ namespace NBA
             this.linkLabel57.TabStop = true;
             this.linkLabel57.Text = "Roaster";
             // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(126, 29);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(86, 20);
-            this.label23.TabIndex = 8;
-            this.label23.Text = "Team name";
-            // 
             // panel6
             // 
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel6.Controls.Add(this.linkLabel101);
             this.panel6.Controls.Add(this.linkLabel91);
             this.panel6.Controls.Add(this.linkLabel92);
             this.panel6.Controls.Add(this.linkLabel93);
-            this.panel6.Controls.Add(this.label35);
             this.panel6.Location = new System.Drawing.Point(3, 486);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(575, 125);
             this.panel6.TabIndex = 14;
+            // 
+            // linkLabel101
+            // 
+            this.linkLabel101.AutoSize = true;
+            this.linkLabel101.Location = new System.Drawing.Point(126, 35);
+            this.linkLabel101.Name = "linkLabel101";
+            this.linkLabel101.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel101.TabIndex = 16;
+            this.linkLabel101.TabStop = true;
+            this.linkLabel101.Text = "Team name";
             // 
             // linkLabel91
             // 
@@ -506,26 +521,27 @@ namespace NBA
             this.linkLabel93.TabStop = true;
             this.linkLabel93.Text = "Roaster";
             // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(126, 29);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(86, 20);
-            this.label35.TabIndex = 12;
-            this.label35.Text = "Team name";
-            // 
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.linkLabel106);
             this.panel7.Controls.Add(this.linkLabel94);
             this.panel7.Controls.Add(this.linkLabel95);
             this.panel7.Controls.Add(this.linkLabel96);
-            this.panel7.Controls.Add(this.label36);
             this.panel7.Location = new System.Drawing.Point(3, 606);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(575, 125);
             this.panel7.TabIndex = 13;
+            // 
+            // linkLabel106
+            // 
+            this.linkLabel106.AutoSize = true;
+            this.linkLabel106.Location = new System.Drawing.Point(126, 31);
+            this.linkLabel106.Name = "linkLabel106";
+            this.linkLabel106.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel106.TabIndex = 16;
+            this.linkLabel106.TabStop = true;
+            this.linkLabel106.Text = "Team name";
             // 
             // linkLabel94
             // 
@@ -557,15 +573,6 @@ namespace NBA
             this.linkLabel96.TabStop = true;
             this.linkLabel96.Text = "Roaster";
             // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(126, 29);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(86, 20);
-            this.label36.TabIndex = 12;
-            this.label36.Text = "Team name";
-            // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.LightGray;
@@ -588,14 +595,25 @@ namespace NBA
             // panel14
             // 
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel14.Controls.Add(this.linkLabel73);
             this.panel14.Controls.Add(this.linkLabel61);
             this.panel14.Controls.Add(this.linkLabel62);
             this.panel14.Controls.Add(this.linkLabel63);
-            this.panel14.Controls.Add(this.label25);
             this.panel14.Location = new System.Drawing.Point(1179, 129);
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(575, 125);
             this.panel14.TabIndex = 9;
+            // 
+            // linkLabel73
+            // 
+            this.linkLabel73.AutoSize = true;
+            this.linkLabel73.Location = new System.Drawing.Point(126, 29);
+            this.linkLabel73.Name = "linkLabel73";
+            this.linkLabel73.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel73.TabIndex = 16;
+            this.linkLabel73.TabStop = true;
+            this.linkLabel73.Text = "Team name";
+            this.linkLabel73.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel73_LinkClicked);
             // 
             // linkLabel61
             // 
@@ -627,26 +645,28 @@ namespace NBA
             this.linkLabel63.TabStop = true;
             this.linkLabel63.Text = "Roaster";
             // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(126, 29);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(86, 20);
-            this.label25.TabIndex = 12;
-            this.label25.Text = "Team name";
-            // 
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.linkLabel23);
             this.panel2.Controls.Add(this.linkLabel58);
             this.panel2.Controls.Add(this.linkLabel59);
             this.panel2.Controls.Add(this.linkLabel60);
-            this.panel2.Controls.Add(this.label24);
             this.panel2.Location = new System.Drawing.Point(595, 129);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(575, 125);
             this.panel2.TabIndex = 9;
+            // 
+            // linkLabel23
+            // 
+            this.linkLabel23.AutoSize = true;
+            this.linkLabel23.Location = new System.Drawing.Point(126, 29);
+            this.linkLabel23.Name = "linkLabel23";
+            this.linkLabel23.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel23.TabIndex = 16;
+            this.linkLabel23.TabStop = true;
+            this.linkLabel23.Text = "Team name";
+            this.linkLabel23.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel23_LinkClicked);
             // 
             // linkLabel58
             // 
@@ -678,26 +698,27 @@ namespace NBA
             this.linkLabel60.TabStop = true;
             this.linkLabel60.Text = "Roaster";
             // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(126, 29);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(86, 20);
-            this.label24.TabIndex = 12;
-            this.label24.Text = "Team name";
-            // 
             // panel15
             // 
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel15.Controls.Add(this.linkLabel97);
             this.panel15.Controls.Add(this.linkLabel67);
             this.panel15.Controls.Add(this.linkLabel68);
             this.panel15.Controls.Add(this.linkLabel69);
-            this.panel15.Controls.Add(this.label27);
             this.panel15.Location = new System.Drawing.Point(1179, 248);
             this.panel15.Name = "panel15";
             this.panel15.Size = new System.Drawing.Size(575, 125);
             this.panel15.TabIndex = 10;
+            // 
+            // linkLabel97
+            // 
+            this.linkLabel97.AutoSize = true;
+            this.linkLabel97.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel97.Name = "linkLabel97";
+            this.linkLabel97.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel97.TabIndex = 17;
+            this.linkLabel97.TabStop = true;
+            this.linkLabel97.Text = "Team name";
             // 
             // linkLabel67
             // 
@@ -730,26 +751,27 @@ namespace NBA
             this.linkLabel69.TabStop = true;
             this.linkLabel69.Text = "Roaster";
             // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(126, 29);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(86, 20);
-            this.label27.TabIndex = 12;
-            this.label27.Text = "Team name";
-            // 
             // panel16
             // 
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel16.Controls.Add(this.linkLabel98);
             this.panel16.Controls.Add(this.linkLabel70);
             this.panel16.Controls.Add(this.linkLabel71);
             this.panel16.Controls.Add(this.linkLabel72);
-            this.panel16.Controls.Add(this.label28);
             this.panel16.Location = new System.Drawing.Point(1179, 364);
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(575, 125);
             this.panel16.TabIndex = 11;
+            // 
+            // linkLabel98
+            // 
+            this.linkLabel98.AutoSize = true;
+            this.linkLabel98.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel98.Name = "linkLabel98";
+            this.linkLabel98.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel98.TabIndex = 16;
+            this.linkLabel98.TabStop = true;
+            this.linkLabel98.Text = "Team name";
             // 
             // linkLabel70
             // 
@@ -781,26 +803,28 @@ namespace NBA
             this.linkLabel72.TabStop = true;
             this.linkLabel72.Text = "Roaster";
             // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(126, 29);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(86, 20);
-            this.label28.TabIndex = 12;
-            this.label28.Text = "Team name";
-            // 
             // panel3
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.linkLabel75);
             this.panel3.Controls.Add(this.linkLabel64);
             this.panel3.Controls.Add(this.linkLabel65);
             this.panel3.Controls.Add(this.linkLabel66);
-            this.panel3.Controls.Add(this.label26);
             this.panel3.Location = new System.Drawing.Point(595, 248);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(575, 125);
             this.panel3.TabIndex = 10;
+            // 
+            // linkLabel75
+            // 
+            this.linkLabel75.AutoSize = true;
+            this.linkLabel75.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel75.Name = "linkLabel75";
+            this.linkLabel75.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel75.TabIndex = 16;
+            this.linkLabel75.TabStop = true;
+            this.linkLabel75.Text = "Team name";
+            this.linkLabel75.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel75_LinkClicked);
             // 
             // linkLabel64
             // 
@@ -833,26 +857,27 @@ namespace NBA
             this.linkLabel66.TabStop = true;
             this.linkLabel66.Text = "Roaster";
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(126, 29);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(86, 20);
-            this.label26.TabIndex = 12;
-            this.label26.Text = "Team name";
-            // 
             // panel17
             // 
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel17.Controls.Add(this.linkLabel103);
             this.panel17.Controls.Add(this.linkLabel76);
             this.panel17.Controls.Add(this.linkLabel77);
             this.panel17.Controls.Add(this.linkLabel78);
-            this.panel17.Controls.Add(this.label30);
             this.panel17.Location = new System.Drawing.Point(1179, 486);
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(575, 125);
             this.panel17.TabIndex = 8;
+            // 
+            // linkLabel103
+            // 
+            this.linkLabel103.AutoSize = true;
+            this.linkLabel103.Location = new System.Drawing.Point(126, 35);
+            this.linkLabel103.Name = "linkLabel103";
+            this.linkLabel103.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel103.TabIndex = 16;
+            this.linkLabel103.TabStop = true;
+            this.linkLabel103.Text = "Team name";
             // 
             // linkLabel76
             // 
@@ -884,27 +909,28 @@ namespace NBA
             this.linkLabel78.TabStop = true;
             this.linkLabel78.Text = "Roaster";
             // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(126, 29);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(86, 20);
-            this.label30.TabIndex = 12;
-            this.label30.Text = "Team name";
-            // 
             // panel18
             // 
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel18.Controls.Add(this.linkLabel104);
             this.panel18.Controls.Add(this.linkLabel21);
             this.panel18.Controls.Add(this.linkLabel79);
             this.panel18.Controls.Add(this.linkLabel80);
             this.panel18.Controls.Add(this.linkLabel81);
-            this.panel18.Controls.Add(this.label31);
             this.panel18.Location = new System.Drawing.Point(1179, 606);
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(575, 125);
             this.panel18.TabIndex = 7;
+            // 
+            // linkLabel104
+            // 
+            this.linkLabel104.AutoSize = true;
+            this.linkLabel104.Location = new System.Drawing.Point(126, 31);
+            this.linkLabel104.Name = "linkLabel104";
+            this.linkLabel104.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel104.TabIndex = 17;
+            this.linkLabel104.TabStop = true;
+            this.linkLabel104.Text = "Team name";
             // 
             // linkLabel21
             // 
@@ -944,26 +970,27 @@ namespace NBA
             this.linkLabel81.TabStop = true;
             this.linkLabel81.Text = "Roaster";
             // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(126, 29);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(86, 20);
-            this.label31.TabIndex = 12;
-            this.label31.Text = "Team name";
-            // 
             // panel9
             // 
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel9.Controls.Add(this.linkLabel99);
             this.panel9.Controls.Add(this.linkLabel88);
             this.panel9.Controls.Add(this.linkLabel89);
             this.panel9.Controls.Add(this.linkLabel90);
-            this.panel9.Controls.Add(this.label34);
             this.panel9.Location = new System.Drawing.Point(595, 364);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(575, 125);
             this.panel9.TabIndex = 11;
+            // 
+            // linkLabel99
+            // 
+            this.linkLabel99.AutoSize = true;
+            this.linkLabel99.Location = new System.Drawing.Point(126, 38);
+            this.linkLabel99.Name = "linkLabel99";
+            this.linkLabel99.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel99.TabIndex = 16;
+            this.linkLabel99.TabStop = true;
+            this.linkLabel99.Text = "Team name";
             // 
             // linkLabel88
             // 
@@ -995,15 +1022,6 @@ namespace NBA
             this.linkLabel90.TabStop = true;
             this.linkLabel90.Text = "Roaster";
             // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(126, 29);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(86, 20);
-            this.label34.TabIndex = 12;
-            this.label34.Text = "Team name";
-            // 
             // panel19
             // 
             this.panel19.BackColor = System.Drawing.Color.LightGray;
@@ -1026,14 +1044,24 @@ namespace NBA
             // panel10
             // 
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel10.Controls.Add(this.linkLabel102);
             this.panel10.Controls.Add(this.linkLabel85);
             this.panel10.Controls.Add(this.linkLabel86);
             this.panel10.Controls.Add(this.linkLabel87);
-            this.panel10.Controls.Add(this.label33);
             this.panel10.Location = new System.Drawing.Point(595, 486);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(575, 125);
             this.panel10.TabIndex = 8;
+            // 
+            // linkLabel102
+            // 
+            this.linkLabel102.AutoSize = true;
+            this.linkLabel102.Location = new System.Drawing.Point(126, 35);
+            this.linkLabel102.Name = "linkLabel102";
+            this.linkLabel102.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel102.TabIndex = 16;
+            this.linkLabel102.TabStop = true;
+            this.linkLabel102.Text = "Team name";
             // 
             // linkLabel85
             // 
@@ -1065,26 +1093,27 @@ namespace NBA
             this.linkLabel87.TabStop = true;
             this.linkLabel87.Text = "Roaster";
             // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(126, 29);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(86, 20);
-            this.label33.TabIndex = 12;
-            this.label33.Text = "Team name";
-            // 
             // panel12
             // 
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel12.Controls.Add(this.linkLabel105);
             this.panel12.Controls.Add(this.linkLabel82);
             this.panel12.Controls.Add(this.linkLabel83);
             this.panel12.Controls.Add(this.linkLabel84);
-            this.panel12.Controls.Add(this.label32);
             this.panel12.Location = new System.Drawing.Point(595, 606);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(575, 125);
             this.panel12.TabIndex = 7;
+            // 
+            // linkLabel105
+            // 
+            this.linkLabel105.AutoSize = true;
+            this.linkLabel105.Location = new System.Drawing.Point(126, 31);
+            this.linkLabel105.Name = "linkLabel105";
+            this.linkLabel105.Size = new System.Drawing.Size(86, 20);
+            this.linkLabel105.TabIndex = 16;
+            this.linkLabel105.TabStop = true;
+            this.linkLabel105.Text = "Team name";
             // 
             // linkLabel82
             // 
@@ -1115,15 +1144,6 @@ namespace NBA
             this.linkLabel84.TabIndex = 13;
             this.linkLabel84.TabStop = true;
             this.linkLabel84.Text = "Roaster";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(126, 29);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(86, 20);
-            this.label32.TabIndex = 12;
-            this.label32.Text = "Team name";
             // 
             // panel13
             // 
@@ -2004,7 +2024,7 @@ namespace NBA
             this.pictureBox1.TabIndex = 13;
             this.pictureBox1.TabStop = false;
             // 
-            // teamsform
+            // teams
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2014,8 +2034,9 @@ namespace NBA
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Back2);
-            this.Name = "teamsform";
+            this.Name = "teams";
             this.Text = "TeamsForm";
+            this.Load += new System.EventHandler(this.teams_Load);
             this.tabControl1.ResumeLayout(false);
             this.Eastern.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
@@ -2108,81 +2129,66 @@ namespace NBA
         private System.Windows.Forms.LinkLabel linkLabel49;
         private System.Windows.Forms.LinkLabel linkLabel50;
         private System.Windows.Forms.LinkLabel linkLabel51;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.LinkLabel linkLabel52;
         private System.Windows.Forms.LinkLabel linkLabel53;
         private System.Windows.Forms.LinkLabel linkLabel54;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.LinkLabel linkLabel55;
         private System.Windows.Forms.LinkLabel linkLabel56;
         private System.Windows.Forms.LinkLabel linkLabel57;
-        private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.LinkLabel linkLabel91;
         private System.Windows.Forms.LinkLabel linkLabel92;
         private System.Windows.Forms.LinkLabel linkLabel93;
-        private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.LinkLabel linkLabel94;
         private System.Windows.Forms.LinkLabel linkLabel95;
         private System.Windows.Forms.LinkLabel linkLabel96;
-        private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel14;
         private System.Windows.Forms.LinkLabel linkLabel61;
         private System.Windows.Forms.LinkLabel linkLabel62;
         private System.Windows.Forms.LinkLabel linkLabel63;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.LinkLabel linkLabel58;
         private System.Windows.Forms.LinkLabel linkLabel59;
         private System.Windows.Forms.LinkLabel linkLabel60;
-        private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Panel panel15;
         private System.Windows.Forms.LinkLabel linkLabel67;
         private System.Windows.Forms.LinkLabel linkLabel68;
         private System.Windows.Forms.LinkLabel linkLabel69;
-        private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Panel panel16;
         private System.Windows.Forms.LinkLabel linkLabel70;
         private System.Windows.Forms.LinkLabel linkLabel71;
         private System.Windows.Forms.LinkLabel linkLabel72;
-        private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.LinkLabel linkLabel64;
         private System.Windows.Forms.LinkLabel linkLabel65;
         private System.Windows.Forms.LinkLabel linkLabel66;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Panel panel17;
         private System.Windows.Forms.LinkLabel linkLabel76;
         private System.Windows.Forms.LinkLabel linkLabel77;
         private System.Windows.Forms.LinkLabel linkLabel78;
-        private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Panel panel18;
         private System.Windows.Forms.LinkLabel linkLabel79;
         private System.Windows.Forms.LinkLabel linkLabel80;
         private System.Windows.Forms.LinkLabel linkLabel81;
-        private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.LinkLabel linkLabel88;
         private System.Windows.Forms.LinkLabel linkLabel89;
         private System.Windows.Forms.LinkLabel linkLabel90;
-        private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Panel panel19;
         private System.Windows.Forms.Label Southheast;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.LinkLabel linkLabel85;
         private System.Windows.Forms.LinkLabel linkLabel86;
         private System.Windows.Forms.LinkLabel linkLabel87;
-        private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Panel panel12;
         private System.Windows.Forms.LinkLabel linkLabel82;
         private System.Windows.Forms.LinkLabel linkLabel83;
         private System.Windows.Forms.LinkLabel linkLabel84;
-        private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Panel panel13;
         private System.Windows.Forms.Label Central;
         private System.Windows.Forms.TabPage Western;
@@ -2269,5 +2275,20 @@ namespace NBA
         private System.Windows.Forms.Label Northwest;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.LinkLabel linkLabel21;
+        private System.Windows.Forms.LinkLabel linkLabel22;
+        private System.Windows.Forms.LinkLabel linkLabel74;
+        private System.Windows.Forms.LinkLabel linkLabel100;
+        private System.Windows.Forms.LinkLabel linkLabel101;
+        private System.Windows.Forms.LinkLabel linkLabel106;
+        private System.Windows.Forms.LinkLabel linkLabel73;
+        private System.Windows.Forms.LinkLabel linkLabel23;
+        private System.Windows.Forms.LinkLabel linkLabel97;
+        private System.Windows.Forms.LinkLabel linkLabel98;
+        private System.Windows.Forms.LinkLabel linkLabel75;
+        private System.Windows.Forms.LinkLabel linkLabel103;
+        private System.Windows.Forms.LinkLabel linkLabel104;
+        private System.Windows.Forms.LinkLabel linkLabel99;
+        private System.Windows.Forms.LinkLabel linkLabel102;
+        private System.Windows.Forms.LinkLabel linkLabel105;
     }
 }

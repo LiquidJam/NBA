@@ -12,7 +12,6 @@ namespace NBA
         public int position; //позиция 
         public String college; //образование
         public String country; //страна
-
         public float price;
         //инициализация класса
 

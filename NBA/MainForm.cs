@@ -18,7 +18,7 @@ namespace NBA
         country[] countries = new country[5];
         player[] players = new player[5];
         position[] positions = new position[5];
-        team[] teams = new team[5];
+        public static team[] teams = new team[5];
         
 
         public mainform()
@@ -67,23 +67,21 @@ namespace NBA
             team team = new team();
 
             teams[0] = new team(); 
-            teams[0].set("1", "Miami Heat", "MIA", "1.jpg");
+            teams[0].set(1, "Miami Heat", "MIA" );
 
             teams[1] = new team();
-            teams[1].set("2", "Orlando Magic", "ORL", "2.jpg");
+            teams[1].set(2,"Orlando Magic", "ORL");
             
             teams[2] = new team(); 
-            teams[2].set("3", "Atlanta Hawks", "ATL", "3.jpg");
+            teams[2].set(3,"Atlanta Hawks", "ATL" );
 
             teams[3] = new team();
-            teams[3].set("4", "Washington Wizards", "WSH", "4.jpg");
+            teams[3].set(4,"Washington Wizards", "WSH");
 
             teams[4] = new team();
-            teams[4].set("5", "Charlotte Hornets", "CHA", "5.jpg");
+            teams[4].set(5,"Charlotte Hornets", "CHA" );
 
-            teams[5] = new team(); 
-            teams[5].set("6", "Detroit Pistons", "DET", "6.jpg");
-
+            
             
 
 

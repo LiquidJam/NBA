@@ -18,7 +18,7 @@ namespace NBA
         private void BackButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form mainform = new Form1();
+            Form mainform = new mainform();
             mainform.Show();
         }
 

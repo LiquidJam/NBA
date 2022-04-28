@@ -4,28 +4,28 @@ using System.Text;
 
 namespace NBA
 {
-    class team
+   public class team
     {
-        String TeamID;
-        String Name;
-        String Abbr;
-        String Logo;
+       public String TeamName;
+        String TeamCode;
+        int TeamID;
+        
 
         //инициализация класса
 
 
 
         public void set(
-            string TeamID,
-            string Name,
-            string Abbr,
-            string Logo)
+            int TeamID,
+            string TeamName,
+            string TeamCode)
+            
         {
             
                 this.TeamID = TeamID;
-                this.Name = Name;
-                this.Abbr = Abbr;
-                this.Logo = Logo;
+                this.TeamName = TeamName;
+                this.TeamCode = TeamCode;
+                
             
         }
     }

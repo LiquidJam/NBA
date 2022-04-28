@@ -29,5 +29,20 @@ namespace NBA
         {
 
         }
+
+        public void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        public void detailform_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void detailform_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
