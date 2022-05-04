@@ -74,6 +74,7 @@ namespace NBA
         {
             this.Hide();
             Form detailform = new detailform();
+            
             detailform.Show();
 
         }

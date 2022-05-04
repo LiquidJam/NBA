@@ -9,7 +9,10 @@ using System.Windows.Forms;
 namespace NBA
 {
     public partial class detailform : Form
+
     {
+        team teamD = new team();
+        public int TeamID = 0;
         public detailform()
         {
             InitializeComponent();
@@ -42,6 +45,13 @@ namespace NBA
 
         private void detailform_Load_1(object sender, EventArgs e)
         {
+            for (int i = 0; i < mainform.teams.Length; i++)
+                if (this.TeamID == mainform.teams[i].TeamID) 
+
+                        this.teamD = mainform.teams[i];
+            label1.Text = this.teamD.TeamName;
+
+                    
 
         }
     }
