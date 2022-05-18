@@ -309,6 +309,7 @@ namespace NBA
             this.Eastern.TabIndex = 0;
             this.Eastern.Text = "Eastern";
             this.Eastern.UseVisualStyleBackColor = true;
+            this.Eastern.Click += new System.EventHandler(this.Eastern_Click);
             // 
             // panel1
             // 

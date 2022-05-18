@@ -8,7 +8,7 @@ namespace NBA
     {
        public String TeamName;
         String TeamCode;
-       public int TeamID;
+        public int TeamID;
         
 
         //инициализация класса

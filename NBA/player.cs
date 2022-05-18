@@ -4,16 +4,19 @@ using System.Text;
 
 namespace NBA
 {
-    class player
+    public class player
     { 
-        public int number; //номер игрока 
-        public String name; //имя игрока 
-        public int growth; //рост игрока 
-        public int position; //позиция 
-        public String college; //образование
-        public String country; //страна
+        public int number; 
+        public String name; 
+        public int growth; 
+        public int position; 
+        public String college;
+        public String country; 
         public float price;
-        //инициализация класса
+        public int TeamID;
+        public int PlayerID;
+        public String TeamName;
+        
 
         public void set(
             int number,
@@ -22,8 +25,10 @@ namespace NBA
             int position,
             String college,
             String country,
-            //DateTime dateofbirth,
-            float price)
+            float price,
+            int TeamID,
+            int PlayerID,
+            String TeamName)
         {
             this.number = number;
             this.name = name;
@@ -31,8 +36,10 @@ namespace NBA
             this.position = position;
             this.college = college;
             this.country = country;
-            // this.dateofbirth = date of birth;
             this.price = price;
+            this.TeamID = TeamID;
+            this.PlayerID = PlayerID;
+            this.TeamName = TeamName;
 
 
            }

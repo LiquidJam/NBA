@@ -12,11 +12,11 @@ namespace NBA
 {
     public partial class mainform : Form
     {
-        string[] imagelist = new string[]
+        String[] imagelist = new String[]
                  {"2.jpg","3.jpg","4.jpg","5.jpg","6.jpg","1.jpg",};
-        int index = 0;
+        private int index ;
         country[] countries = new country[5];
-        player[] players = new player[5];
+        public static player[] players = new player[5];
         position[] positions = new position[5];
         public static team[] teams = new team[5];
         
@@ -40,15 +40,15 @@ namespace NBA
 
             player player = new player();
 
-            player.set(7, "Gary Williams", 193, 3, "college", "Argentina", 1300);
+            player.set(7, "Gary Williams", 193, 3, "college", "Argentina", 1300, 1,2, "Miami Heat");
             players[0] = player;
-            player.set(11, "Juan Hernan", 206, 5, "college", "Bosnia", 1200);
+            player.set(11, "Juan Hernan", 206, 5, "college", "Bosnia", 1200, 1, 4, "Orlando Magic");
             players[1] = player;
-            player.set(17, "Will Barton", 198, 1, "college", "Congo", 1300);
+            player.set(17, "Will Barton", 198, 1, "college", "Congo", 1300, 1, 6, "Atlanta Hawks");
             players[2] = player;
-            player.set(20, "Nikola Pekov", 210, 3, "college", "Spain", 1300);
+            player.set(20, "Nikola Pekov", 210, 3, "college", "Spain", 1300, 1, 8, "Washington Wizards");
             players[3] = player;
-            player.set(27, "Kris Dunn", 193, 3, "college", "France", 1300);
+            player.set(27, "Kris Dunn", 193, 3, "college", "France", 1300, 1, 10, "Charlotte Hornets");
             players[4] = player;
 
             position position = new position();
@@ -64,7 +64,7 @@ namespace NBA
             position.set("5", "PointGuard");
             positions[4] = position;
 
-            team team = new team();
+            
 
             teams[0] = new team(); 
             teams[0].set(1, "Miami Heat", "MIA" );

@@ -8,9 +8,9 @@ using System.Windows.Forms;
 
 namespace NBA
 {
-    public partial class playersform : Form
+    public partial class PlayerForm : Form
     {
-        public playersform()
+        public PlayerForm()
         {
             InitializeComponent();
         }

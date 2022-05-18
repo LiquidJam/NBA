@@ -32,7 +32,7 @@ namespace NBA
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form playersform = new playersform();
+            Form playersform = new PlayerForm();
             playersform.Show();
         }
 
