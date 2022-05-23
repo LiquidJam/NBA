@@ -27,5 +27,12 @@ namespace NBA
             Form adminform = new adminform();
             adminform.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form addplayer = new addplayer();
+            addplayer.Show();
+        }
     }
 }

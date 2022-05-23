@@ -23,15 +23,15 @@ namespace NBA
         {
 
             for (int i = 0; i < mainform.teams.Length; i++)
-                if (this.TeamID == mainform.teams[i].TeamID)
+                if (this.TeamID == mainform.teams[i].TeamiD)
                     this.teamD = mainform.teams[i];
             label2.Text = this.teamD.TeamName;
 
 
             for (int i = 0; i < mainform.players.Length; i++)
-                if (mainform.players[i].TeamID == this.TeamID)
+                if (mainform.players[i].teamiD == this.TeamID)
                 {
-                    dataGridView1.Rows.Add(mainform.players[i].number, mainform.players[i].name, mainform.players[i].growth, mainform.players[i].position, mainform.players[i].college, mainform.players[i].country, mainform.players[i].price, mainform.players[i].TeamID, mainform.players[i].PlayerID, mainform.players[i].TeamName);
+                    dataGridView1.Rows.Add(mainform.players[i].number, mainform.players[i].name, mainform.players[i].growth, mainform.players[i].position, mainform.players[i].college, mainform.players[i].country, mainform.players[i].price, mainform.players[i].teamiD, mainform.players[i].PlayerID, mainform.players[i].TeamName);
                 }
         }
 
@@ -45,6 +45,13 @@ namespace NBA
         private void dataGridView1_CellContentClick_2(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form teams = new teams();
+            teams.Show();
         }
     }
 }

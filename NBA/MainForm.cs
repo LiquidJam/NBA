@@ -41,15 +41,15 @@ namespace NBA
             player player = new player();
 
             player.set(7, "Gary Williams", 193, 3, "college", "Argentina", 1300, 1,2, "Miami Heat");
-            players[0] = player;
-            player.set(11, "Juan Hernan", 206, 5, "college", "Bosnia", 1200, 1, 4, "Orlando Magic");
-            players[1] = player;
-            player.set(17, "Will Barton", 198, 1, "college", "Congo", 1300, 1, 6, "Atlanta Hawks");
-            players[2] = player;
-            player.set(20, "Nikola Pekov", 210, 3, "college", "Spain", 1300, 1, 8, "Washington Wizards");
-            players[3] = player;
-            player.set(27, "Kris Dunn", 193, 3, "college", "France", 1300, 1, 10, "Charlotte Hornets");
-            players[4] = player;
+            players[0] = new player();
+            players[0].set(11, "Juan Hernan", 206, 5, "college", "Bosnia", 1200, 1, 4, "Orlando Magic");
+            players[1] = new player();
+            players[1].set(17, "Will Barton", 198, 1, "college", "Congo", 1300, 1, 6, "Atlanta Hawks");
+            players[2] = new player();
+            players[2].set(20, "Nikola Pekov", 210, 3, "college", "Spain", 1300, 1, 8, "Washington Wizards");
+            players[3] = new player();
+            players[3].set(27, "Kris Dunn", 193, 3, "college", "France", 1300, 1, 10, "Charlotte Hornets");
+            players[4] = new player();
 
             position position = new position();
 
@@ -79,7 +79,7 @@ namespace NBA
             teams[3].set(4,"Washington Wizards", "WSH");
 
             teams[4] = new team();
-            teams[4].set(5,"Charlotte Hornets", "CHA" );
+            teams[4].set(5,"Charlotte Hornets", "CHA");
 
             
             

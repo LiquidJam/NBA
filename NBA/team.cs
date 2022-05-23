@@ -8,7 +8,7 @@ namespace NBA
     {
        public String TeamName;
         String TeamCode;
-        public int TeamID;
+        public int TeamiD;
         
 
         //инициализация класса
@@ -16,13 +16,13 @@ namespace NBA
 
 
         public void set(
-            int TeamID,
+            int TeamiD,
             string TeamName,
             string TeamCode)
             
         {
             
-                this.TeamID = TeamID;
+                this.TeamiD = TeamiD;
                 this.TeamName = TeamName;
                 this.TeamCode = TeamCode;
                 

@@ -25,13 +25,13 @@ namespace NBA
             player.college = textBox5.Text;
             player.country = textBox6.Text;
             player.price = Convert.ToInt32(textBox7.Text);
-            player.TeamID = Convert.ToInt32(textBox8.Text);
+            player.teamiD = Convert.ToInt32(textBox8.Text);
             player.TeamName = comboBox1.Text;
 
 
             for (int i = 0; i < mainform.teams.Length; i++)
                 if (comboBox1.Text == mainform.teams[i].TeamName)
-                    player.TeamID = mainform.teams[i].TeamID;
+                    player.teamiD = mainform.teams[i].TeamiD;
 
             Array.Resize(
                 ref mainform.players, mainform.players.Length + 1);
@@ -56,6 +56,13 @@ namespace NBA
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form evadmenu = new evadmenu();
+            evadmenu.Show();
         }
     }
 }

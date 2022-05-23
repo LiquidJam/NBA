@@ -13,7 +13,7 @@ namespace NBA
         public String college;
         public String country; 
         public float price;
-        public int TeamID;
+        public int teamiD;
         public int PlayerID;
         public String TeamName;
         
@@ -26,7 +26,7 @@ namespace NBA
             String college,
             String country,
             float price,
-            int TeamID,
+            int teamId,
             int PlayerID,
             String TeamName)
         {
@@ -37,7 +37,7 @@ namespace NBA
             this.college = college;
             this.country = country;
             this.price = price;
-            this.TeamID = TeamID;
+            this.teamiD = teamiD;
             this.PlayerID = PlayerID;
             this.TeamName = TeamName;
 

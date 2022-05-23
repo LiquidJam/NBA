@@ -74,7 +74,7 @@ namespace NBA
         {
             this.Hide();
             Form teamdetail = new teamdetail();
-            teamdetail.TeamID = 0;
+            //teamdetail.TeamID = 1;
             teamdetail.Show();
 
         }
